@@ -1,0 +1,19 @@
+{
+  "name": "backpack",
+  "version": "1.0.0",
+  "description": "generate bpk object from figma styles.",
+  "main": "./dist/code.js",
+  "scripts": {
+    "build": "webpack",
+    "watch": "npm run build -- --watch"
+  },
+  "author": "Sandip Savaliya",
+  "license": "",
+  "devDependencies": {
+    "@figma/plugin-typings": "^1.71.1",
+    "ts-loader": "^9.4.4",
+    "typescript": "^5.2.2",
+    "webpack": "^5.88.2",
+    "webpack-cli": "^5.1.4"
+  }
+}

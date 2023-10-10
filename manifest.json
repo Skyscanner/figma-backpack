@@ -1,0 +1,32 @@
+{
+  "name": "Backpack",
+  "id": "1288899540223966544",
+  "api": "1.0.0",
+  "main": "dist/code.js",
+  "capabilities": [
+    "codegen"
+  ],
+  "codegenLanguages": [
+    {
+      "label": "Android",
+      "value": "Kotlin"
+    },
+    {
+      "label": "iOS",
+      "value": "Swift"
+    },
+    {
+      "label": "React",
+      "value": "TypeScript"
+    }
+  ],
+  "enableProposedApi": false,
+  "editorType": [
+    "dev"
+  ],
+  "networkAccess": {
+    "allowedDomains": [
+      "none"
+    ]
+  }
+}
